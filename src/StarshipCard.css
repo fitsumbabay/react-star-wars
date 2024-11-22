@@ -1,18 +1,14 @@
 .starship-card {
   background-color: #7498ce;
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
-  transition: transform 0.2s ease-in-out;
- 
-}
-
-.starship-card:hover {
-  transform: translateY(-5px);
+  margin: 20px;
+  width: 200px;
 }
 
 .starship-card h2 {
@@ -23,9 +19,9 @@
 .starship-card p {
   font-size: 1rem;
   margin: 5px 0;
-   display: flex;
+ display: flex;
 }
 
 .starship-card strong {
-  color: #333;
+  color: #fff;
 }
