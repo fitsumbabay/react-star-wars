@@ -1,5 +1,5 @@
 import React from "react";
-import "./StarshipCard.css"; // Optional: If you want to add specific styles for the card
+import "./StarshipCard.css"; 
 
 const StarshipCard = ({ starship }) => {
   return (
